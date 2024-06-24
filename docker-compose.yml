@@ -33,7 +33,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: oxidrive_db
+      POSTGRES_DB: rustyroad_db
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:
